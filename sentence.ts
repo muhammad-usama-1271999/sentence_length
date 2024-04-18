@@ -18,4 +18,11 @@ console.log(sentence);
 
 let length = sentence.length
 
-console.log(`the length of your sentence is: ${length}`);
+console.log(`In your sentence have word: ${length}`);
+let a = user.sentence.replace(/ /g,"");
+
+//console.log(a)
+
+let b = a.length
+
+console.log("letters in your sentence count in number "+b)
